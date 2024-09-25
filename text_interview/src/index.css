@@ -1,0 +1,24 @@
+
+
+:root {
+  --principal-font: "Poppins", "Arial";
+  --color-white: #fff;
+  --color-layout: #2d3238;
+  --principal-color-blue: rgb(41, 116, 144);
+  --color-light-blue: #3b627d;
+  --color-button: rgb(77, 128, 180);
+  --color-black: #000000;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--principal-font), serif;
+}
+
+html, body, #root {
+  background-color: #efefef;
+  height: 100vh;
+}
+ 

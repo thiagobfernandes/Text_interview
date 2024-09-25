@@ -1,0 +1,86 @@
+.input {
+    width: 100%;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-inline-start: 1rem;
+    padding-inline-end: 2.5rem;
+    border-radius: 12px;
+    min-width: 0px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    position: relative;
+    appearance: none;
+    border: 2px solid;
+    border-color: transparent;
+    height: 5rem;
+    background: #2d3238;
+    font-family:var(--principal-font) ;
+    color: #bdbdbd;
+}
+
+.button {
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    line-height: 1.2;
+    border-radius: 12px;
+    font-weight: 600;
+    height: 2rem;
+    min-width: 2rem;
+    font-size: 0.875rem;
+    background-color: #EDF2F7;
+    color: #1A202C;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
+    cursor: pointer;
+    border: 0;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.75);
+}
+
+
+.button:hover {
+    transition: 0.2s;
+
+    background-color: var(--color-button);
+    color: #dcdcdc;
+}
+
+.button:active {
+  background-color: var(--color-button);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.buttonDiv {
+    width: 2.5rem;
+    font-size: 1rem;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    height: 5rem;
+    margin-right: 6rem;
+}
+
+.comando {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 8.5rem;
+}
